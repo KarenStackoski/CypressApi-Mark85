@@ -1,0 +1,30 @@
+{
+    "login": {
+        "name": "Rosa Diaz",
+        "email": "diaz@hotmail.com",
+        "password": "ballet"
+    },
+    "inv_pass": {
+        "email": "peralta@hotmail.com",
+        "password": "aaaaaa"
+    },
+    "inv_email": {
+        "email": "aaa@hotmail.com",
+        "password": "aaaaaa"
+    },
+    "create": {
+        "name": "Jake Peralta",
+        "email": "peralta@hotmail.com",
+        "password": "peraltiago"
+    },
+    "duplicate_email": {
+        "name": "Raymond Holt",
+        "email": "rayray@hotmail.com",
+        "password": "cheddar"
+    },
+    "required": {
+        "name": "Amy Santiago",
+        "email": "santiago@hotmail.com",
+        "password": "fichario123"
+    }
+}

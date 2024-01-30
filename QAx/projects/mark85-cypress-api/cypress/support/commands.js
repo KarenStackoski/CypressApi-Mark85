@@ -37,7 +37,11 @@ Cypress.Commands.add('postSession', (user) => {
     cy.api({
         url: '/sessions',
         method: 'POST',
-        body: user
+        body: {
+            email: user.email,
+            password: user.password
+        },
+        failOnStatusCode: false
     }).then(response => {
         return response
     })
