@@ -1,12 +1,14 @@
 ///<reference types="cypress"/>
 
 describe('POST /users', ()=> {
-    it('register a new user', () => {
-        const user = {
-            name: 'Jake Peralta',
-            email: 'peralta@hotmail.com',
-            password: 'peraltiago'
-        }
+    beforeEach(() => {
+        cy.fixture('users').then(function(users){
+          this.users = users
+        })
+      })
+
+    it('register a new user', function() {
+        const user = this.users.create
 
         cy.task('removeUser', user.email)
 
@@ -17,12 +19,8 @@ describe('POST /users', ()=> {
         })
     })
 
-    it('duplicate user', () => {
-        const user = {
-            name: 'Raymond Holt',
-            email: 'rayray@hotmail.com',
-            password: 'cheddar'
-        }
+    it('duplicate user', function() {
+        const user = this.users.duplicate_email
 
         cy.task('removeUser', user.email)
 
@@ -42,12 +40,8 @@ describe('POST /users', ()=> {
         //test dough - data fields
         let user
 
-        beforeEach(() => {
-            user = {
-                name: 'Jake Peralta',
-                email: 'peralta@hotmail.com',
-                password: 'peraltiago'
-            }
+        beforeEach(function() {
+            user = this.users.required
         })
 
         it('name is required', () => {
