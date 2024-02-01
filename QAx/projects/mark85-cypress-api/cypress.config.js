@@ -15,6 +15,24 @@ module.exports = defineConfig({
           return null
         },
       })
+
+      on('task', {
+        async removeTask(name, email) {
+          const users = db.collection('users')
+          const user = users.findOne({email: email})
+          const tasks = db.collection('tasks')
+          await tasks.deleteOne({name: name, user: user.id})
+          return null
+        },
+      })
+
+      on('task', {
+        async deleteTasksLike(text) {
+          const tasks = db.collection('tasks')
+          await tasks.deleteOne({ email: { $regex: text } })
+          return null
+        }
+      })
     },
     baseUrl: 'http://localhost:3333'
   },

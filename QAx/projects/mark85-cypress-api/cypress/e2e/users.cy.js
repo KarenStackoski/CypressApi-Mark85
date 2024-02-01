@@ -14,7 +14,7 @@ describe('POST /users', ()=> {
 
         cy.postUser(user)
         .then(response => {
-            expect(response.status).eq(200)
+            expect(response.status).eq(201)
             cy.log(JSON.stringify(response.body))
         })
     })
