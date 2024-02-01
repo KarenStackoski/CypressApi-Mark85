@@ -1,0 +1,27 @@
+{
+    "remove": {
+        "user": {
+            "name": "Amy Santiago",
+            "email": "santiago@hotmail.com",
+            "password": "fichario123"
+        },
+        "task": {
+            "name": "Comprar novo fichario",
+            "tags": [
+                "materiais",
+                "organização",
+                "trabalho"
+            ]
+        }
+    },
+    "not_found": {
+        "user": {
+            "name": "Charles Boyle",
+            "email": "boyle@hotmail.com",
+            "password": "peraltaIsTheBest"
+        },
+        "task": {
+            "name": "Dar oi para Peralta"
+        }
+    }
+}

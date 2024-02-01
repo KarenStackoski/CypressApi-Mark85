@@ -1,0 +1,26 @@
+{
+    "update": {
+        "user": {
+            "name": "Terry Jeffords",
+            "email": "terry@hotmail.com",
+            "password": "topdog"
+        },
+        "task": {
+            "name": "Comprar suplementos",
+            "tags": [
+                "academia",
+                "saúde"
+            ]
+        }
+    },
+    "not_found": {
+        "user": {
+            "name": "Gina Linetti",
+            "email": "gina@hotmail.com",
+            "password": "ginaToldYouSo"
+        },
+        "task": {
+            "name": "Não ser atropelada por um ônibus"
+        }
+    }
+}

@@ -1,0 +1,28 @@
+
+{
+    "create": {
+        "user": {
+            "name": "Jake Peralta",
+            "email": "peralta@hotmail.com",
+            "password": "peraltiago"
+        },
+        "task": {
+            "name": "Finalizar curso cypress",
+            "tags": [
+                "qa",
+                "cypress",
+                "tester"
+            ]
+        }
+    },
+    "dup": {
+        "user": {
+            "name": "Jake Peralta",
+            "email": "peralta@hotmail.com",
+            "password": "peraltiago"
+        },
+        "task": {
+            "name": "Procurar bandido do pontiac"
+        }
+    }
+}

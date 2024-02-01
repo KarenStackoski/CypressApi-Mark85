@@ -1,0 +1,62 @@
+{
+    "list": {
+        "user": {
+            "name": "Jake Peralta",
+            "email": "peralta@hotmail.com",
+            "password": "peraltiago"
+        },
+        "tasks": [
+            {
+                "name": "b99 Aposta com Amy Santiago",
+                "tags": [
+                    "aposta"
+                ]
+            },
+            {
+                "name": "b99 Trabalhar em novo caso de roubo",
+                "tags": [
+                    "relatório",
+                    "crimes"
+                ]
+            },
+            {
+                "name": " b99 Entregar relatório para Holt",
+                "tags": [
+                    "relatório",
+                    "robo",
+                    "capitão"
+                ]
+            }
+        ]
+    },
+    "unique": {
+        "user": {
+            "name": "Rosa Diaz",
+            "email": "diaz@hotmail.com",
+            "password": "ballet"
+        },
+        "task": {
+            "name": "Lavar moto",
+            "tags": [
+                "moto",
+                "diaz",
+                "pessoal"
+            ]
+        }
+    },
+    "not_found": {
+        "user": {
+            "name": "Raymond Holt",
+            "email": "rayray@hotmail.com",
+            "password": "cheddar"
+        },
+        "task": {
+            "name": "Dar esporro no Peralta",
+            "tags": [
+                "profissional",
+                "detetives",
+                "comportamento"
+            ]
+        }
+    }
+}
