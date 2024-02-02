@@ -17,7 +17,8 @@
   "license": "ISC",
   "devDependencies": {
     "cypress": "^13.6.3",
-    "cypress-plugin-api": "^2.11.1"
+    "cypress-plugin-api": "^2.11.1",
+    "dotenv": "^16.4.1"
   },
   "dependencies": {
     "mongodb": "^6.3.0"
